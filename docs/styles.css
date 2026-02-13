@@ -1,0 +1,61 @@
+:root {
+  --bg: #0b1020;
+  --card: #121a33;
+  --fg: #e8ecff;
+  --muted: #b6c0ff;
+  --border: rgba(255,255,255,.12);
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  padding: 24px;
+}
+
+.card {
+  max-width: 800px;
+  margin: 0 auto;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.box {
+  margin-top: 18px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+label { display: block; margin: 10px 0; color: var(--muted); }
+input, textarea {
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: rgba(0,0,0,.15);
+  color: var(--fg);
+}
+
+button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,.10);
+  color: var(--fg);
+  cursor: pointer;
+}
+
+pre {
+  white-space: pre-wrap;
+  background: rgba(0,0,0,.25);
+  border: 1px solid var(--border);
+  padding: 12px;
+  border-radius: 12px;
+  margin-top: 10px;
+}

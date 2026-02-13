@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Demo Front (GitHub Pages) + Backend (Render)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>Demo SaaS (muy básica)</h1>
+    <p>Front en GitHub Pages → Backend en Render</p>
+
+    <section class="box">
+      <h2>Probar /api/saludo</h2>
+      <button id="btnSaludo">Pedir saludo</button>
+      <pre id="salidaSaludo">(aquí sale la respuesta)</pre>
+    </section>
+
+    <section class="box">
+      <h2>Formulario (POST /api/contacto)</h2>
+      <form id="formContacto">
+        <label>
+          Nombre
+          <input name="nombre" required />
+        </label>
+
+        <label>
+          Email
+          <input name="email" type="email" required />
+        </label>
+
+        <label>
+          Mensaje
+          <textarea name="mensaje" rows="4" required></textarea>
+        </label>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <pre id="salidaContacto">(aquí sale el resultado)</pre>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
