@@ -1,5 +1,5 @@
 // ✅ IMPORTANTE: pon aquí la URL de tu backend de Render (sin / final)
-const BACKEND_URL = "https://TU-BACKEND.onrender.com";
+const BACKEND_URL = "https://proyectosaas.onrender.com";
 
 const btnSaludo = document.getElementById("btnSaludo");
 const salidaSaludo = document.getElementById("salidaSaludo");
